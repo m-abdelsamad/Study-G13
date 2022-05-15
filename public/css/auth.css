@@ -1,0 +1,481 @@
+.sticky {
+    /* position: fixed;
+    top: 0;
+    z-index:1;
+    width: 100%; */
+  }
+  
+/*   
+  .logo{
+    color: red;
+    font-size: 40px;
+    font-weight: 300;
+  }
+  
+  .navbar-brand a{
+    color: red;
+  }
+  
+  .navbar-brand a:hover{
+    color: red;
+  }
+  .nav-link{
+    font-size: 25px;
+  } */
+  
+  
+  /* form{
+    margin: 3% auto;
+    width: 50%;
+  } */
+  
+  
+  
+  /*form errors*/
+  .error_text{
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .error_input{
+    border: solid 1px red;
+  }
+  
+  /*form- wrong login details*/
+  .error_label{
+    margin-top: 0%;
+    margin-bottom: 1%;
+    color: red;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  /*.nav-item p{
+    margin-bottom: 2px;
+  }*/
+  
+  /*form- adding new camera */
+  .success_label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 1.66%;
+  }
+  
+  
+  /*Profile Settings*/
+  .profile_action_heading{
+    font-size: 25px;
+    color: #6c757d;
+  }
+  .btn-group-vertical p{
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 3px;
+  }
+  .btn-group-vertical p:hover{
+    opacity: 0.7;
+    font-size: 17px;
+    transition: all 0.5s;
+  }
+  /*.profile_action_holder{
+    
+  }
+  .profile_action_holder li{
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 3px;
+  }
+  .profile_action_holder li:hover{
+    opacity: 0.7;
+    font-size: 17px;
+    transition: all 0.5s;
+  }*/
+  
+  .price_tag{
+    color:red;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  .store_content{
+    margin: 10% auto;
+  }
+  .filter_settings{
+    display: flex;
+    flex-direction: column;
+  }
+  .category{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+  }
+  .category_heading{
+    color: red;
+    font-size: 23px;
+    font-weight: 400;
+  }
+  .item_content{
+    height: 250px;
+    /* border-bottom: solid 2px #6c757d; */
+    
+  }
+  .item_image img{
+    width: 230px;
+    height: 230px;
+  }
+  .item_content{
+    /*padding: 10px;*/
+  }
+  .item_content_link, .item_content_link:hover, .item_content_link:active .item_content_link:focus{
+    text-decoration: none;
+    color: inherit;
+  } 
+  
+  .quatity{
+    width: 82px;
+    margin-right: 10px;
+  }
+  .img-slider-store{
+    width: 100%;
+    height: 700px;
+  }
+  
+  
+  
+  
+  /*Cart items- sidebar*/
+  .cart_item{
+    border-bottom: solid 1px #6c757d;
+  }
+  .cart_img_container img{
+    width: 150px;
+    height: 150px;
+  }
+  .card_content_container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card_content_container p{
+    margin: 1%;
+  }
+  /*Add, Remove buttons*/
+  .cart_links{
+    display: flex;
+  }
+  .cart_links a{
+    margin: 2%;
+    color: red;
+    text-decoration: none;
+  }
+  .cart_links a:hover{
+    opacity: 0.6;
+  }
+  /*Check out button*/
+  .checkout_container{
+    margin: 10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkout_container a{
+    /* color: red;
+    text-decoration: none;
+    height: 30px;
+    width: 35%;
+    border: solid 1px red;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px; */
+  }
+  
+  
+  .checkout_cam_details{
+    display: flex;
+    flex-direction: column;
+  }
+  .cart_heading .col p, .chechout_headings{
+    color:black;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .checkout_headings{
+    color:#c0c4c9;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .checkout_form_inputs{
+    width: 100%;
+  }
+  .cart_box{
+    height: 600px;
+  }
+  .item_scroll{
+    height: 385px;
+    /* overflow: auto; */
+    overflow-y: auto;
+  
+  }
+  .checkout_section{
+    margin: 0;
+  }
+  
+  
+  .shadow {
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+  }
+  
+  
+  /*Login register forms*/
+  .register_form{
+    padding: 35px;
+    height: 620px;
+    margin: 5% auto;
+    width: 50%;
+  }
+  .login_form{
+    padding: 35px;
+    height: 450px;
+    margin: 5% auto;
+    width: 50%;
+  }
+  .canon_form_button{
+    color: #00fc75;
+    background: #ced4da; 
+    margin: 3px 0; 
+  }
+  
+  .register_promote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chechout_labels{
+    font-size: 23px;
+    color: red;
+    font-weight: 400;
+  }
+  
+  .check_filter:checked{
+    background: red;
+  }
+  
+  .filter_buttons button, .filter_buttons a{
+    margin: 5%;
+    color: red;
+  }
+  
+  .strike_through{
+    text-decoration: line-through;
+  }
+  
+  
+  
+  
+  /*dashboard*/
+  .dashboard_side_menu{ 
+    background: #F5F5F5;
+  }
+  
+  .main_user_img, .main_user_controls{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu_actions{
+   display: flex;
+   flex-direction: column; 
+   padding:5%;
+  }
+  .menu_actions a, .menu_actions a:active, .menu_actions a:focus{
+    text-decoration: none;
+    color: red; 
+    font-size: 25px;
+    font-weight: 400;
+    margin: 4%;
+  }
+  .menu_actions a:hover{
+    opacity: 0.7;
+  }
+  .row_holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1% auto;
+  }
+  
+  .form_title{
+    margin: 3%;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 3px;
+  }
+  
+  .admin_forms{
+    padding: 35px;
+    width: 100%;
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  
+  
+  .dashboard_links{
+    /* margin-left: 30%; */
+  }
+  
+  .dashboard_imgs img{
+    width: 100%;
+    margin: 0;
+  }
+  
+  .login_box{
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%)
+  }
+  
+  .login_side_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    /* margin: 5% auto;
+    text-align: center; */
+  }
+/*   
+  
+  .account_settings_cards{
+    height: 570px;
+    margin: 2%;
+  }
+  .account_settings_cards form{
+    padding: 10px;
+  }
+  
+  
+  
+  .cards_holder, .addresses_holder{
+    margin-top: 2%;
+    height: 480px;
+    overflow-y: auto;
+    padding-left: 6%;
+  }
+  .card{
+    margin: 7%;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    height: 220px;
+    width: 400px;
+    border: none;
+  }
+  .card_details{
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .card_info{
+    font-size: 30px;
+  }
+  .card_number_title{
+    font-size: 12px;
+    color: red;
+    opacity: 0.7;
+    font-weight: 600;
+    margin-bottom: 0.1%;
+    text-transform: uppercase;
+  }
+  .card_logo{
+    bottom: 60px;
+    right: 30px;
+    position: absolute;
+    width: 57px;
+    height: 55px;
+  
+  }
+  .address_block{
+    margin: 6%;
+    padding-left: 5%;
+  }
+  .address_details p{
+    margin: 0;
+  }
+  
+  .no_details_found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  
+  .no_details_found h4{
+    position: relative;
+      top: 135px;
+  }
+  
+  .banner_holder{
+    margin: 2% auto;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+  }
+  .open_border, .closed_border{
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: 43px;
+    border-radius: 15px;
+    
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+  }
+  .open_border{
+    background-color: #46c744;
+  }
+  .closed_border{
+    background-color: #f03a3a;
+  }
+  
+  .hidden{
+    opacity: 0;
+  }
+  .address_edit_holder{
+
+    transition: opacity 1s;
+  }
+  
+   */
+  
