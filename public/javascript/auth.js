@@ -25,6 +25,8 @@ function registerUser(){
         password: password,
     }
 
+    usersCollection.doc(currentUser.key).set(userData);
+
     $.ajax({
         type:"POST",
         url: `${url}/register`,
@@ -39,7 +41,7 @@ function registerUser(){
                 let currentUser = response.user;
                 console.log("user data", currentUser);
 
-                usersCollection.doc(currentUser.key).set(currentUser);
+                
                 window.location.href = `${url}/dashboard`;
 
             } else if(!response.success && response.status == 406){
@@ -94,7 +96,7 @@ function loginUser(){
                 //set current user
                 let currentUser = response.user;
                 console.log("user data", currentUser);
-                window.location = `${url}/discussionBoard`;
+                window.location = `${url}/dashboard`;
 
             } else if(!response.success && response.status == 401){
                 console.log('Invalid credentials')
