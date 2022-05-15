@@ -48,11 +48,6 @@ class AuthController extends Controller
             'password' => 'required',
         ]);
 
-        // if($validateForm->fails()){
-        //     // session()->flash('errors', $validateForm->errors());
-        //     // return redirect()->back();
-        //     return response()->JSON(['status' => 406, 'success' => false, 'errors' => $validateForm->errors()]);
-        // }
 
         // $validator = Validator::make($request, [
         //     'name' => 'required|string',
